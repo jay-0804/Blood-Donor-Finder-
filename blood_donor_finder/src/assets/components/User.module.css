@@ -1,0 +1,120 @@
+/* Main Page Background */
+.container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1f2937, #111827);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f9fafb;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #f87171;
+}
+
+/* Dropdown */
+.select {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  background-color: #374151;
+  color: white;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.select:hover {
+  background-color: #4b5563;
+}
+
+/* Count Text */
+.count {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+/* No Donor Message */
+.noDonor {
+  color: #f87171;
+  margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+  width: 100%;
+  max-width: 500px;
+  background: #1f2937;
+  padding: 18px 20px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  transition: 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.45);
+}
+
+/* Text inside card */
+.card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #e5e7eb;
+}
+
+/* Availability */
+.available {
+  color: #34d399;
+  font-weight: 600;
+}
+
+.notAvailable {
+  color: #f87171;
+  font-weight: 600;
+}
+
+/* Button */
+.button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  transition: 0.3s ease;
+}
+
+.button:hover:not(:disabled) {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+}
+
+.button:disabled {
+  background: #6b7280;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Request Sent */
+.requested {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #34d399;
+  font-size: 14px;
+}
